@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  /* font-family: "Outfit", sans-serif; */
+}
+#img-1 {
+  width: 200px;
+  height: auto;
+  border-radius: 13%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+}
+.header {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 200%;
+  color: rgb(247, 245, 250);
+}
+aside {
+  padding: 3%;
+}
+@media only screen and (max-width: 600px) {
+  #img-1 {
+    width: calc(100% - 1px);
+  }
+}
+
+/* @media only screen and (min-width: 800px) {
+  body {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+} */
+
+body {
+  background-color: rgb(238, 230, 246);
+}
+button {
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #300a5c;
+  color: aliceblue;
+}
+@media only screen and (max-width: 750px) {
+  .cat-div {
+    justify-content: stretch;
+    flex-flow: wrap;
+    gap: 20%;
+  }
+}
+.catdiv {
+  background-color: aliceblue;
+  border-radius: 2%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .cont {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+@media only screen and (min-width: 1000px) {
+  body {
+    padding-left: 10px;
+    padding-right: 50px;
+  }
+}
+a :hover {
+  cursor: pointer;
+}

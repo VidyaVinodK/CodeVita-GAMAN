@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  /* font-family: "Outfit", sans-serif; */
+}
+@media only screen and (min-width: 0px) {
+  .common-template-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+  }
+}
+/* @media only screen and (max-width: 500px) {
+  .common-template-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+} */
+@media only screen and (min-width: 800px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .heading-and-button {
+    flex-direction: column;
+    gap: 20%;
+  }
+  .common-template-date-location {
+    flex-direction: column;
+    gap: 2%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .common-template-content-flex {
+    flex-direction: column;
+    gap: 2%;
+  }
+}
+.heading-and-button {
+  display: flex;
+  gap: 50%;
+  padding-top: 30px;
+}
+.main {
+  background-color: rgba(249, 242, 252);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+body {
+  background-color: rgb(173, 159, 186);
+}
+/* .common-template-main-div {
+  line-height: 1px;
+} */
+p,
+li {
+  color: rgb(96, 92, 92);
+}
+#content {
+  max-height: 100px;
+  overflow: hidden;
+}
+#content.open {
+  max-height: fit-content;
+  padding: 2px;
+}
